@@ -1,6 +1,6 @@
 # jquery-getScriptOnce
 
-�d�ҡG
+範例：
 <script type="text/javascript">
 jQuery.getScriptOnce("<c:url value='/resource/js/tinymce/tinymce.min.js' />", function() {
 	tinymce.baseURL = "<c:url value='/resource/js/tinymce' />";
