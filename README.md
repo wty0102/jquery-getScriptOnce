@@ -2,9 +2,9 @@
 範例：
 <pre>
 <code>
-<script type="text/javascript">
-jQuery.getScriptOnce("<c:url value='/resource/js/tinymce/tinymce.min.js' />", function() {
-	tinymce.baseURL = "<c:url value='/resource/js/tinymce' />";
+&lt;script type="text/javascript"&gt;
+jQuery.getScriptOnce("&lt;c:url value='/resource/js/tinymce/tinymce.min.js' /&gt;", function() {
+	tinymce.baseURL = "&lt;c:url value='/resource/js/tinymce' /&gt;";
 	tinymce.suffix = ".min",
 	tinymce.init({
 		id: "${id}",
@@ -18,13 +18,13 @@ jQuery.getScriptOnce("<c:url value='/resource/js/tinymce/tinymce.min.js' />", fu
 		//		{title: 'My image 1', value: 'http://www.tinymce.com/my1.gif'},
 		//		{title: 'My image 2', value: 'http://www.moxiecode.com/my2.gif'}
 		//	],
-		pagebreak_separator : "<!-- html-editor page break -->",
+		pagebreak_separator : "&lt;!-- html-editor page break --&gt;",
 		image_advtab : true,
 		nonbreaking_force_tab : true,
 		paste_data_images: true
 	});
 	jQuery("#${id}").show();
 });
-</script>
+&lt;/script&gt;
 </code>
 </pre>
