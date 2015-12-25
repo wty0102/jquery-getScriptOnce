@@ -1,7 +1,7 @@
-<pre>
 # jquery-getScriptOnce
-
 範例：
+<pre>
+<code>
 <script type="text/javascript">
 jQuery.getScriptOnce("<c:url value='/resource/js/tinymce/tinymce.min.js' />", function() {
 	tinymce.baseURL = "<c:url value='/resource/js/tinymce' />";
@@ -26,4 +26,5 @@ jQuery.getScriptOnce("<c:url value='/resource/js/tinymce/tinymce.min.js' />", fu
 	jQuery("#${id}").show();
 });
 </script>
+</code>
 </pre>
